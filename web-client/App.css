@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+   margin:0px;
+ }
+.menu {
+  background:green;
+  color: white;
+  height:35px;
+  width:100%;
+}
+
+.logo {
+  padding-top: 0px;
+  padding-left:100px;
+  padding-bottom:0px;
+  padding-right: 0px;
+  height:300px;
+  width: 300px;
+  display: flex;
+}
+.data {
+  text-align:left;
+  padding-left:300px;
+}
+.data1 {
+  padding-left:500px;
+}
+
+.menu ul li {
+  list-style-type: none;
+  float:left;
+  padding-top:5px;
+  padding-bottom:5px;
+  margin-left:15px;
+  margin-right:15px;
+  font-size:17px;
+  margin-bottom:0px;
+  padding-bottom:0px;  
+}
+
+.menu ul li a {
+  text-decoration:none;
+  color: white;
+}
+
+
+.grid {
+  margin-top:0px;
+  padding-top:0px;
+  width:100%;
+  height:550px;  
+}
+
+.home{
+  color:white;  
+}
+
+.space {
+  text-align:center;
+  padding-top:50px;
+}
+
+hr {
+  width:150px;  
+}
+
+.about_us {
+  background:grey;
+  color:white; 
+}
+
+.about_us p {
+  margin-top:15px;
+  margin-left: 150px;
+  margin-right:150px;
+}
+
+.contact_us {
+  background:purple;
+  color:white; 
+}
+
+input[type=text], [type=number], [type=email], textarea {
+  width:20%;
+}
+
+label {
+
+
+    padding-left:26px;
+    width:125px;
+    text-transform: uppercase;
+    display:inline-block
+}
